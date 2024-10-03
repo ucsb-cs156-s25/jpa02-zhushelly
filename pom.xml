@@ -10,7 +10,7 @@
   <parent>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-parent</artifactId>
-    <version>2.6.2</version>
+    <version>3.1.1</version>
     <relativePath /> <!-- lookup parent from repository -->
   </parent>
 
@@ -39,14 +39,14 @@
   <!-- (14) <mailingLists/> -->
   <!-- (15) <prerequisites/> -->
   <!-- (16) <modules/> -->
-  <!-- (17) <scm/> -->
+  <!-- (21) <scm/> -->
   <!-- (18) <issueManagement/> -->
   <!-- (19) <ciManagement/> -->
   <!-- (20) <distributionManagement/> -->
   <!-- (21) <properties/> -->
 
   <properties>
-    <java.version>17</java.version>
+    <java.version>21</java.version>
     <mainClass>edu.ucsb.cs156.spring.hello.Application</mainClass>
   </properties>
 
@@ -106,7 +106,7 @@
       <plugin>
         <groupId>org.jacoco</groupId>
         <artifactId>jacoco-maven-plugin</artifactId>
-        <version>0.8.7</version>
+        <version>0.8.12</version>
         <executions>
           <execution>
             <goals>
@@ -126,12 +126,12 @@
       <plugin>
         <groupId>org.pitest</groupId>
         <artifactId>pitest-maven</artifactId>
-        <version>1.7.3</version>
+        <version>1.17.0</version>
         <dependencies>
           <dependency>
             <groupId>org.pitest</groupId>
             <artifactId>pitest-junit5-plugin</artifactId>
-            <version>0.14</version>
+            <version>1.2.1</version>
           </dependency>
         </dependencies>
         <configuration>
@@ -158,7 +158,7 @@
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-surefire-plugin</artifactId>
         <!-- JUnit 5 requires Surefire version 2.22.0 or higher -->
-        <version>2.22.0</version>
+        <version>3.5.0</version>
       </plugin>
 
     </plugins>
