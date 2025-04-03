@@ -23,7 +23,7 @@ public class DeveloperTest {
     @Test
     public void getName_returns_correct_name() {
         // TODO: Replace Chris G. with your name as shown on
-        // <https://bit.ly/cs156-f24-teams>
+        // <https://bit.ly/cs156-s25-teams>
         assertEquals("Chris G.", Developer.getName());
     }
 

@@ -8,9 +8,9 @@
 * TODO: Correct the links to repo below, 
   then delete this TODO.  Replace it with 
   a link to your repo, e.g. 
-  https://github.com/ucsb-cs156-f24/jpa02-cgaucho
+  https://github.com/ucsb-cs156-s25/jpa02-cgaucho
 
-Repo: https://ucsb-cs156-f24/STARTER-jpa02
+Repo: https://ucsb-cs156-s25/STARTER-jpa02
 
 * TODO: Correct the "deployed at" link to app on Dokku
   then delete this TODO.  Replace it with 
@@ -42,7 +42,7 @@ This is a minimal "Hello World" type webapp built with Spring Boot.
 # Sources
 
 The code in this repo is in support of
-jpa02 for Fall 2024 for CMPSC 156.
+jpa02 for S25 for CMPSC 156.
 
 The code in this repo is based in part on the tutorial here:
 <https://spring.io/guides/gs/spring-boot/>, and the code here in the
